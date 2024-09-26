@@ -1,0 +1,138 @@
+main {
+  overflow: scroll;
+  scroll-behavior: smooth;
+  height: 85vh;
+}
+
+.nav-colum {
+  background-color: rgb(216, 174, 164);
+  width: 15%;
+  height: 80vh;
+  position: fixed;
+}
+.nav-colum ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 60px;
+  padding: 0;
+}
+.nav-colum ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: brown;
+  font-weight: 700;
+  padding-inline: 50px;
+}
+.nav-colum ul li a:hover {
+  color: yellow;
+}
+
+.mybox {
+  width: 85%;
+  height: auto;
+  background-color: aqua;
+  margin-left: 15%;
+  position: relative;
+  box-sizing: border-box;
+}
+.mysearch {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 8px;
+}
+.mybox i {
+  position: absolute;
+  top: 50%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 19px;
+}
+.allbook {
+  width: 85%;
+  height: auto;
+  background-color: rgba(38, 0, 255, 0.247);
+  margin-left: 15%;
+  padding: 12px;
+}
+.cate {
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.card {
+  width: 16.5rem;
+  height: auto;
+}
+.modal-dialog {
+  width: 70%;
+  height: auto;
+}
+.fjs {
+  width: 100%;
+  height: 500px;
+}
+.ieu {
+  color: white;
+  text-decoration: none;
+}
+.kaa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hskd {
+  height: 200px;
+}
+.card-body {
+  line-height: 1.3;
+}
+.kdjk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookimg {
+  width: 48%;
+  height: 100%;
+}
+.booktxt {
+  width: 48%;
+  height: 100%;
+}
+.booktxt p {
+  text-indent: 20px;
+  text-align: start;
+}
+.picbook {
+  width: 100%;
+  height: 80%;
+  background-color: darkorange;
+}
+.picbook img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 2px 2px 2px black;
+}
+.ratingbook {
+  width: 100%;
+  height: 20%;
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.ratingbook span {
+  font-size: 19px;
+  font-weight: 700;
+  color: red;
+}

@@ -1,0 +1,48 @@
+/* !Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  img.logo {
+    height: 35px;
+  }
+  .okk {
+    font-size: 16px;
+  }
+  .form-ck {
+    font-size: 16px;
+  }
+  .test-icon {
+    font-size: 13px;
+  }
+}
+
+/*! Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  img.logo {
+    height: 40px;
+  }
+  .okk {
+    font-size: 18px;
+  }
+  .form-ck {
+    font-size: 18px;
+  }
+}
+
+/*! Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  img.logo {
+    height: 45px;
+  }
+  .okk {
+    font-size: 20px;
+  }
+  .form-ck {
+    font-size: 20px;
+  }
+}
+
+/*! X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  img.logo {
+    height: 50px;
+  }
+}
